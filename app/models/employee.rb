@@ -10,4 +10,7 @@ class Employee < Account
   	TimeEntry.create(time: amount, employee: self, account: customer)
   	end
 
+
 end
+
+
